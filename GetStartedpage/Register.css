@@ -1,0 +1,127 @@
+
+.body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  background-image: url(image/original-8ea0812d4446896218ce4a9c8a69452d.webp);
+}
+
+
+.center-box {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertical center */
+  align-items: center;      /* horizontal center */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 40px auto; /* centers the box horizontally with some top and bottom margin */
+  backdrop-filter: blur(10px); /* optional: adds a blur effect to the background */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
+  position: relative;
+
+}
+
+.center-box h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.center-box p{
+  font-size: 1rem;
+  color:#3a1be5;
+  margin: 5px 0;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.form-wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+
+#registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  margin-bottom: 100px;  
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9); /* semi-transparent background */
+  box-shadow: 0 4px 15px rgba(0, 0,         0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px); /* optional: adds a blur effect to the background */
+  position: relative;
+  border-radius: 999px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+
+#registerForm input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 100%;
+  transition: border-color 0.3s;
+
+
+}
+
+
+
+.submit {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+
+}
+
+#registerMessage {
+  margin-top: 20px;
+  font-size: 16px;
+  min-height: 24px; /* ensures space is reserved for messages */
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  
+  
+}
+
+
+
+

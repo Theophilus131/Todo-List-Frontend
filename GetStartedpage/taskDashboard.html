@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="taskDashboard.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+      <div class="mainContainer"> 
+         <div class="nav-left">
+                <a href="#">TaskMaster</a>
+        </div>
+                <div class="nav-right">
+                    <a href="getStarted.html">Dashboard</a>
+                    
+                </div>
+                      <div class="inputbox">
+                        <input type="search" id="searchInput" placeholder="Search tasks" />
+                        <button type="button" id="searchBtn">Search</button>
+                        <button id="logoutBtn">Logout</button>
+
+                    </div>
+
+      </div>
+    
+
+    <h1>My To-Do List</h1>
+
+  <!-- Task Form -->
+  <form id="taskForm">
+    <input type="text" id="taskInput" placeholder="Task" required />
+    <input type="text" id="descInput" placeholder="Description" />
+    <input type="date" id="dueInput" required />
+    <button type="submit">Add Task</button>
+  </form>
+
+  <!-- Tasks Display -->
+  <div class="myTodos">
+    <div class="todo-row header">
+      <div>Task</div>
+      <div>Description</div>
+      <!-- <div>Created</div> -->
+      <div>Due Date</div>
+      <div>Action</div>
+    </div>
+    <!-- Tasks will be added below -->
+  </div>
+
+  
+	    	
+ 
+  <script src="./taskDashboard.js"></script>
+</body>
+</html>
